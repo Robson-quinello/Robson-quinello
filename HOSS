@@ -1,0 +1,31 @@
+# ROSS-HEIDECKE
+
+# Carregando um arquivo csv
+setwd("C:\\users\\GUERREIRO\\Desktop\\FCD\\BigDataRAzure\\Cap02")
+getwd()
+
+?read.csv
+ross <- data.frame(read.csv(file = 'ross', header = TRUE, sep = ","))
+
+# Visualizando o dataset
+View(ross)
+head(ross)
+summary(ross)
+
+# Visualizando as variáveis
+ross$Respondente
+ross$Spanlife
+ross$Conservation
+ross$Cons1
+ross$Keywords
+
+# Gráficos
+
+boxplot(ross$Spanlife)
+
+cor(ross$Spanlife,ross$Cons1)
+
+hist(ross$Spanlife, main = "Spanlife", xlab = "Age",
+     ylab = "Frequência", col = 'blue')
+
+plot (ross$Spanlife,ross$Cons1)
