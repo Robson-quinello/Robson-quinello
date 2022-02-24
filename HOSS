@@ -1,7 +1,7 @@
 # ROSS-HEIDECKE
 
 # Carregando um arquivo csv
-setwd("C:\\users\\GUERREIRO\\Desktop\\FCD\\BigDataRAzure\\Cap02")
+setwd("C:\\entre com o endereço onde salvou o arquivo csv anexado abaixo")
 getwd()
 
 ?read.csv
