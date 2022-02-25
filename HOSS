@@ -1,4 +1,4 @@
-# ROSS-HEIDECKE
+# ROSS-HEIDECKE EM LINGUAGEM R
 
 # Carregando um arquivo csv
 setwd("C:\\entre com o endereço onde salvou o arquivo csv anexado abaixo")
